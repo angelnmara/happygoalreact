@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('./images/back_ground_light.png');
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+  .NameAppSize{
+    width: 200px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .NameAppSize{
+    width: 300px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .NameAppSize{
+    width: 300px;
+    height: 30px;
+  }
+}
+
+@media (min-width: 1200px){
+  .NameAppSize{
+    width: 400px;
+    height: 40px;
+  }
 }
 
 @keyframes App-logo-spin {
