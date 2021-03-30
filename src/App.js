@@ -2,13 +2,16 @@ import logo from './images/happy_goal.png';
 import './App.css';
 import Navbar from './components/Navbar'
 import Area from './components/Areas';
+import Rol from './components/Rol';
+import Funcionalidades from './components/Funcionalidades';
+import Login from './components/Login';
 
 function App() {
   return (
     <div className="App">      
-    <Navbar/>
-    <Area/>
-      <header className="App-header">      
+    {/* <Navbar/> */}
+    <Login/>
+      {/* <header className="App-header">      
         <img src={logo} width="400px" height="10px" className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -21,7 +24,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
